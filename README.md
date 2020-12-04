@@ -8,10 +8,6 @@ Este projeto foi desenvolvido para realizar a atividade técnica 02 do processo 
 
 ## Imagens
 
-### Configurações gerais
-#### Rede
-- Foi especificado um escopo de rede para o projeto rodar isoladamente.
-
 ### Web (Python / Django)
 #### Considerações
 - Dockerfile criado manualmente para atender as especificações do porjeto;
