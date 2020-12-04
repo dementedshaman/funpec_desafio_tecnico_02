@@ -1,0 +1,11 @@
+FROM node:alpine
+
+WORKDIR /app
+
+COPY example-react/package.json /app
+
+RUN yarn install
+
+COPY ./example-react /app
+
+CMD ["npm", "run", "start"]
